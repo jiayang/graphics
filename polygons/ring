@@ -1,0 +1,15 @@
+torus
+0 0 0 10 50
+ident
+rotate
+x 90
+move
+275 250 0
+apply
+torus
+225 250 0 10 50
+sphere
+250 400 0 50
+display
+save
+ring.png

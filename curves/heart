@@ -1,0 +1,11 @@
+bezier
+500 300 500 360 400 360 400 300
+bezier
+400 300 400 240 500 230 500 180
+circle
+450 300 0 5
+hermite
+475 250 500 240 -1 -1 1 3
+display
+save
+heart.png

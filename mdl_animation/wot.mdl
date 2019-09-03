@@ -1,0 +1,14 @@
+// Note: This uses the light values in the provided source code.
+constants shiny_purple 0.3 0.2 0.8 0.3 0 0 0.3 0.2 0.8
+constants shiny_teal 0.3 0.0 0.0 0.3 0.2 0.8 0.3 0.2 0.8
+constants dull_yellow 0.3 0.8 0.2 0.3 0.8 0.2 0 0 0
+frames 50
+basename wot
+push
+move 250 250 0
+rotate x 360 woop
+sphere shiny_purple 100 150 0 80
+sphere shiny_teal 100 100 0 100
+sphere dull_yellow 100 50 0 125
+vary woop 0 50 0 1 EXPONENTIAL
+save wot.png

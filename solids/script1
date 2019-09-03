@@ -1,0 +1,7 @@
+#triangle
+#200 300 0 150 100 0 400 200 0
+triangle
+175 200 100 10 42 14 34 2 100
+display
+save
+wot.png
